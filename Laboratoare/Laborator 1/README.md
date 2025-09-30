@@ -87,7 +87,7 @@ Citiți mai mult despre  __GHCi__:
 
 ## Fișiere sursă
 
-2. Fișierele sursă sunt fișiere text cu extensia ___.hs___. Le puteți edita cu un editor la alegerea voastră. Deschideți fișierul `PF2025-Lab1.hs` care conține următoarele linii de cod:
+2. Fișierele sursă sunt fișiere text cu extensia ___.hs___. Le puteți edita cu un editor la alegerea voastră. Deschideți fișierul `lab1.hs` care conține următoarele linii de cod:
 ``` haskell
 myInt = 31415926535897932384626433832795028841971693993751058209749445923
 double :: Integer -> Integer
@@ -129,7 +129,7 @@ Executați `double` cu alte argumente:
 *Main> double 2000
 ```
 
-Adăugați o funcție `triple` fișierului `PF2025-Lab1.hs`. Dacă fișierul este deja încărcat, puteți să îl reîncărcați folosind comanda ___reload___ (`:r`). Testați funcția `triple` pentru inputul `myInt`.
+Adăugați o funcție `triple` fișierului `lab1.hs`. Dacă fișierul este deja încărcat, puteți să îl reîncărcați folosind comanda ___reload___ (`:r`). Testați funcția `triple` pentru inputul `myInt`.
 
 ``` haskell
 *Main> :r
