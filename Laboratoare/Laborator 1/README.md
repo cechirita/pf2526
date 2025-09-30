@@ -76,7 +76,8 @@ Funcțiile `head` și `tail`  aparțin modulului standard __Prelude__.
 :t - este comanda *type*
 ``` haskell
 Prelude> :t True
-True :: Bool```
+True :: Bool
+```
 
 Citiți mai mult despre  __GHCi__:
 [https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci.html](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci.html)
@@ -87,7 +88,8 @@ Citiți mai mult despre  __GHCi__:
 ``` haskell
 myInt = 31415926535897932384626433832795028841971693993751058209749445923
 double :: Integer -> Integer
-double x = x+x```
+double x = x+x
+```
 
 Fără a încărca fișierul, încercați să calculați `double myInt`:
 
@@ -98,7 +100,8 @@ Observați mesajele de eroare. Acum încărcați fișierul folosind comanda ___l
 ``` haskell
 Prelude> :l lab1.hs
 [1 of 1] Compiling Main             ( lab1.hs, interpreted )
-Ok, 1 module loaded.```
+Ok, 1 module loaded.
+```
 
 Promptul poate rămâne neschimbat, sau să fie înlocuit cu numele unui ___modul___. 
 De exemplu, în linia următoare, este înlocuit cu numele modulului `Main`, definit automat de `ghci` pentru fișierul tocmai încărcat. 
@@ -118,7 +121,8 @@ Adăugați o funcție `triple` fișierului `lab1.hs`. Dacă fișierul este deja 
 ``` haskell
 *Main> :r
 Ok, 1 module loaded.
-*Main> triple myInt```
+*Main> triple myInt
+```
 
 ## Hoogle
 
