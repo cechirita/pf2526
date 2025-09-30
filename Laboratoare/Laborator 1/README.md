@@ -4,7 +4,7 @@
 
 ## Descărcare și instalare
 
-### Instrucțiuni Instalare Haskell folosind GHCup
+### Instrucțiuni instalare Haskell folosind GHCup
 
 GHCup permite dezvoltatorilor să instaleze versiuni ale GHC (Glasgow Haskell Compiler) și să gestioneze proiecte pe sisteme precum GNU/Linux, macOS, FreeBSD, și Windows, instalând întregul Haskell Toolchain, care este format din:
 
@@ -31,11 +31,15 @@ Haskell poate fi [integrat în VSCode](https://www.haskell.org/ghcup/install/#vs
 
 1. Deschideți un terminal și introduceți comanda `ghci` (în Windows este posibil să aveți instalat WinGHCi). După câteva informații despre versiunea instalată, va apărea promptul:
 
-`ghci>`
+``` haskell 
+ghci>
+```
 
 sau, în funcție de versiunea instalată:
 
-`Prelude>`
+``` haskell 
+Prelude>
+```
 
 __Prelude__ este biblioteca standard: [http://hackage.haskell.org/package/base-4.12.0.0/docs/Prelude.html](http://hackage.haskell.org/package/base-4.12.0.0/docs/Prelude.html)
 
@@ -62,7 +66,6 @@ Prelude> head "abcd"
 Prelude> tail "abcd"
 'bcd'
 ```
-
 Funcțiile `head` și `tail`  aparțin modulului standard __Prelude__.
 
 - introduce comenzi; orice comandă este precedată de `":"`
@@ -93,7 +96,9 @@ double x = x+x
 
 Fără a încărca fișierul, încercați să calculați `double myInt`:
 
-``Prelude> double myInt``
+``` haskell 
+Prelude> double myInt
+```
 
 Observați mesajele de eroare. Acum încărcați fișierul folosind comanda ___load___ (`:l`).
 
@@ -106,15 +111,22 @@ Ok, 1 module loaded.
 Promptul poate rămâne neschimbat, sau să fie înlocuit cu numele unui ___modul___. 
 De exemplu, în linia următoare, este înlocuit cu numele modulului `Main`, definit automat de `ghci` pentru fișierul tocmai încărcat. 
 
-`` *Main> ``
+``` haskell
+*Main> 
+```
 
 Modulele sunt unități elementare de structurare a codului despre care vom învăța în cursurile viitoare. Puteți reveni în __Prelude__  folosind `:m - Main`.
 
 Încercați să calculați `double myInt` din nou:
-``*Main> double myInt``
+
+``` haskell*Main> double myInt
+```
 
 Executați `double` cu alte argumente:
-``*Main> double 2000``
+
+``` haskell
+*Main> double 2000
+```
 
 Adăugați o funcție `triple` fișierului `lab1.hs`. Dacă fișierul este deja încărcat, puteți să îl reîncărcați folosind comanda ___reload___ (`:r`). Testați funcția `triple` pentru inputul `myInt`.
 
