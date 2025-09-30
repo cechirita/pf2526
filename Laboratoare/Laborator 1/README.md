@@ -119,7 +119,8 @@ Modulele sunt unități elementare de structurare a codului despre care vom înv
 
 Încercați să calculați `double myInt` din nou:
 
-``` haskell*Main> double myInt
+``` haskell
+*Main> double myInt
 ```
 
 Executați `double` cu alte argumente:
@@ -139,10 +140,12 @@ Ok, 1 module loaded.
 ## Hoogle
 
 Există numeroase biblioteci utile de Haskell. Puteți găsi informații despre ele în __Hoogle__: 
+
  [https://hoogle.haskell.org/](https://hoogle.haskell.org/)
 
  Căutați în __Hoogle__ funcția `head` folosită anterior. Observați că se găsește în mai multe biblioteci, printre care `Prelude` și `Data.List`.
 
 ## Citiți, citiți, citiți!
 Citiți capitolul introductiv din M. Lipovaca, Learn You a Haskell for Great Good! 
+
 [https://learnyouahaskell.com/introduction](https://learnyouahaskell.com/introduction)
