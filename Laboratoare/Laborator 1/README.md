@@ -60,7 +60,8 @@ Prelude> head [1,2,3]
 Prelude> head "abcd"
 'a'
 Prelude> tail "abcd"
-'bcd'```
+'bcd'
+```
 
 Funcțiile `head` și `tail`  aparțin modulului standard __Prelude__.
 
