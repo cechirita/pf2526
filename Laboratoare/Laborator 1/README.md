@@ -61,6 +61,7 @@ Prelude> head "abcd"
 'a'
 Prelude> tail "abcd"
 'bcd'```
+
 Funcțiile `head` și `tail`  aparțin modulului standard __Prelude__.
 
 - introduce comenzi; orice comandă este precedată de `":"`
