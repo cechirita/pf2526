@@ -216,7 +216,9 @@ fibonacciEcuational n =
 
 10. Numerele `tribonacci` sunt definite astfel:
 
-$$ T_n = \left\{\begin{array}{l@{\textrm{ dacă }}l} 1 & n = 1 \\ 1 & n = 2 \\ 2 & n = 3 \\ T_{n-1}+T_{n-2} + T_{n-3} & n > 3 \end{array}\right. $$
+```math
+T_n = \left\{\begin{array}{l@{\textrm{ dacă }}l} 1 & n = 1 \\ 1 & n = 2 \\ 2 & n = 3 \\ T_{n-1}+T_{n-2} + T_{n-3} & n > 3 \end{array}\right.
+```
 
 Implementați funcția `tribonacci` dând o definiție bazată pe cazuri și una ecuațională, cu șabloane.
 
