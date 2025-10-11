@@ -191,7 +191,9 @@ Un avantaj al folosirii recursivității este acela că ușurează sarcina de sc
 
 Un exemplu simplu este calcularea unui element de la o poziție dată din secvența numerelor Fibonacci, definită recursiv astfel:
 
-$$ F_n = \left\{\begin{array}{l@{\textrm{ dacă }}l}n & n\in\{0,1\}\\ F_{n-1}+F_{n-2} & n > 1\end{array}\right. $$
+```math
+F_n = \left\{\begin{array}{l@{\textrm{ dacă }}l}n & n\in\{0,1\}\\ F_{n-1}+F_{n-2} & n > 1\end{array}\right.
+```
 
 Putem transcrie această definiție în Haskell:
 
