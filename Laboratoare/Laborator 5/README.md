@@ -1,4 +1,4 @@
-# Laborator 4 - Fold
+# Laborator 5 - Fold
 
 ## Fold
 
@@ -77,7 +77,7 @@ rmChar = undefined
 ``` haskell
 rmCharsRec :: String -> String -> String
 rmCharsRec = undefined
--- rmCharsRec ['a'..'l'] "halloween" == "ween"
+-- rmCharsRec ['a'..'l'] "halloween" == "own"
 ```
 
 (c) Scrieți o funcție echivalentă cu cea de la (b) care folosește însă `rmChar` și `foldr`.
