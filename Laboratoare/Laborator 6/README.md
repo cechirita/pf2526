@@ -151,16 +151,22 @@ testcorect2 = corect (M[L[1,2,3], L[4,5,8], L[3,6,8], L[8,5,3]]) == True
 ## Extra: Turtle!
 
 4. Ajutați-l pe Donatello să găsească pizza folosind limbajul Turtle! Limbajul constă din comenzi și acțiuni prin care o țestoasă se poate mișca în plan.
-a)  Definiți un tip de date `Turtle` care să codifice poziția și orientarea țestoasei. Poziția corespunde coordonatelor carteziene în plan, iar orientarea corespunde punctelor cardinale. 
+   
+a) Definiți un tip de date `Turtle` care să codifice poziția și orientarea țestoasei. Poziția corespunde coordonatelor carteziene în plan, iar orientarea corespunde punctelor cardinale.
+
 b) Definiți un tip de date `Action` corespunzător următoarelor două acțiuni:
-- `step` -- pentru deplasarea țestoasei cu o poziție conform orientării curente
-- `turn` -- pentru schimbarea orientării cu 45 de grade în sensul acelor de ceasornic.
+  - `step` -- pentru deplasarea țestoasei cu o poziție conform orientării curente.
+  - `turn` -- pentru schimbarea orientării cu 45 de grade în sensul acelor de ceasornic.
+
 c) Definiți un tip de date `Command` cu următorii constructori:
-- `do` -- pentru executarea unei acțiuni
-- `repeat` -- pentru repetarea unei acțiuni de un număr dat de ori.
-d) Scrieți o funcție `getPizza` care primește drept argumente o țestoasă și o listă de comenzi și returnează poziția țestoasei în urma executării comenzilor. 
+  + `do` -- pentru executarea unei acțiuni.
+  + `repeat` -- pentru repetarea unei acțiuni de un număr dat de ori.
+
+d) Scrieți o funcție `getPizza` care primește drept argumente o țestoasă și o listă de comenzi și returnează poziția țestoasei în urma executării comenzilor.
+
 e) Extindeți tipul de date `Command` cu constructorul `wait` care corespunde comenzii vide. Extindeți tipul de date `Action` cu un constructor `seq` care are drept argumente două comenzi `c1` și `c2`. Modificați funcția `getPizza` pentru a folosi noii constructori:
-- `wait` nu schimbă nici poziția, nici orientarea țestoasei
-- `seq c1 c2` corespunde schimbării poziției sau orientării țestoasei mai întâi conform comenzii `c1`, iar apoi conform comenzii `c2`. 
+  - `wait` nu schimbă nici poziția, nici orientarea țestoasei.
+  - `seq c1 c2` corespunde schimbării poziției sau orientării țestoasei mai întâi conform comenzii `c1`, iar apoi conform comenzii `c2`.
+
 f) Folosiți `fold` pentru a agrega o listă de comenzi într-o singură comandă echivalentă.
 
