@@ -45,7 +45,7 @@ test23 = noNegative 5 == Just 5
 dogFromString :: String -> Int -> Int -> Maybe Dog
 dogFromString = undefined 
 
-test24 = cowFromString "Toto" 5 11 == Just (Dog {name = "Toto", age = 5, weight = 11})
+test24 = dogFromString "Toto" 5 11 == Just (Dog {name = "Toto", age = 5, weight = 11})
 
 newtype Name = Name String deriving (Eq, Show)
 newtype Address = Address String deriving (Eq, Show)
