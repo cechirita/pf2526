@@ -117,7 +117,7 @@ showPersonA $ Person "ada" 20
 "AGE: 20"
 ```
 
-b) Folosind funcțiile definite pentru exercițiile 5.a) și 5.b), definiți funcția
+b) Folosind funcțiile definite pentru exercițiul 6.a), definiți funcția
 
 ``` haskell
 showPerson :: Person -> String
